@@ -1,0 +1,54 @@
+.üst {
+    background-color: rgb(221, 161, 94);
+    overflow: hidden;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.üst a {
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 17px 96px;
+    float: left;
+    font-weight: bold;
+}
+
+.üst a:hover {
+    background-color: rgb(254, 250, 224);
+    color: black;
+}
+
+.üst a.gecerli {
+    background-color: rgb(81, 32, 19);
+    color: white;
+}
+
+.temizle {
+    clear: both;
+}
+
+.orta {
+    margin: 15px;
+}
+
+.orta a.bosluk {
+    padding: 25%;
+    background-color: rgb(147, 152, 124);
+}
+
+.orta a.yazi {
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(147, 152, 124);
+    color: rgb(4, 13, 2);
+}
+
+.starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+
+div {
+    display: block;
+}
