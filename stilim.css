@@ -43,6 +43,7 @@
 }
 
 .orta img.resim {
+    padding-top: 20px;
     padding-bottom: 30px;
 }
 
@@ -61,10 +62,25 @@
     color: rgb(4, 13, 2);
 }
 
+h4.yaziBoslugu {
+    padding-bottom: 10px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+h5.yaziBoslugu {
+    padding-top: 5px;
+}
+
 .son {
     margin: 15px;
 }
 
 .son a.bosluk {
     padding-left: 25%;
+}
+
+.slayt {
+    width: 825px;
+    height: 600px;
 }
