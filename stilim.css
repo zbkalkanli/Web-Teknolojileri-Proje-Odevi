@@ -1,26 +1,30 @@
+﻿body {
+    background-color: #FEFAE0;
+}
+
 .üst {
-    background-color: rgb(221, 161, 94);
+    background-color: #FEFAE0;
     overflow: hidden;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .üst a {
-    color: #000000;
+    color: black;
     text-align: center;
     text-decoration: none;
-    font-size: 20px;
-    padding: 17px 96px;
+    padding: 20px;
+    font-size: 18px;
     float: left;
     font-weight: bold;
 }
 
 .üst a:hover {
-    background-color: rgb(254, 250, 224);
+    background-color: #F6F0E1;
     color: black;
 }
 
 .üst a.gecerli {
-    background-color: rgb(81, 32, 19);
+    background-color: #512013;
     color: white;
 }
 
@@ -32,9 +36,20 @@
     margin: 15px;
 }
 
+.orta a.üst {
+    margin: 20px;
+}
+
+.orta img.resim {
+    padding-bottom: 30px;
+}
+
+.orta img.logo {
+    padding-right: 3px;
+}
+
 .orta a.bosluk {
     padding: 25%;
-    background-color: rgb(147, 152, 124);
 }
 
 .orta a.yazi {
@@ -44,11 +59,10 @@
     color: rgb(4, 13, 2);
 }
 
-.starter-template {
-    padding: 3rem 1.5rem;
-    text-align: center;
+.son {
+    margin: 15px;
 }
 
-div {
-    display: block;
+.son a.bosluk {
+    padding-left: 25%;
 }
