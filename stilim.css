@@ -68,6 +68,11 @@ h1.yazi {
     color: #283618;
 }
 
+h2.yazi {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
 h4.yazi {
     padding-bottom: 10px;
     padding-top: 20px;
