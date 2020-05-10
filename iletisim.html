@@ -2,7 +2,6 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="stilim.css">
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="stilim.css">
@@ -19,46 +18,43 @@
             <a href="girisyap.html">GİRİŞ YAP</a>
             <a class="gecerli" href="iletisim.html">İLETİŞİM</a>
         </div>
-        <br><br><br><br>
-        <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4">
-                <h2 class="yazi">İLETİŞİM FORMU</h2>
-                <form action="iletisim.php" method="POST">
-                    <table cellspacing="8">
-                        <tr>
-                            <td>İsim</td>
-                            <td>:</td>
-                            <td><input type="text" name="isim"></td>
-                        </tr>
-                        <tr>
-                            <td>Soyisim</td>
-                            <td>:</td>
-                            <td><input type="text" name="soyisim"></td>
-                        </tr>
-                        <tr>
-                            <td>Cinsiyet</td>
-                            <td>:</td>
-                            <td><input type="radio" name="cinsiyet" value="Kadın">Kadın
-                                <input type="radio" name="cinsiyet" value="Erkek">Erkek
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Email</td>
-                            <td>:</td>
-                            <td><input type="email" name="email"></td>
-                        </tr>
-                        <tr>
-                            <td>Telefon Numarası</td>
-                            <td>:</td>
-                            <td><input type="text" pattern="[0-9]{11}" name="telNo"></td>
-                        </tr>
-                        <tr>
-                            <td>Konu</td>
-                            <td>:</td>
-                            <td>
-                                <select name="konu">
-                                    <option value="Bir konu seçiniz" selected>Bir konu seçiniz.</option>
+        <div class="orta">
+            <h2 class="yazi">İLETİŞİM FORMU</h2>
+            <form action="iletisim.php" method="POST">
+                <table cellspacing="8">
+                    <tr>
+                        <td>İsim</td>
+                        <td>:</td>
+                        <td><input type="text" name="isim" size="30" required></td>
+                    </tr>
+                    <tr>
+                        <td>Soyisim</td>
+                        <td>:</td>
+                        <td><input type="text" name="soyisim" size="30" required></td>
+                    </tr>
+                    <tr>
+                        <td>Cinsiyet</td>
+                        <td>:</td>
+                        <td><input type="radio" name="cinsiyet" value="Kadın" required>Kadın
+                            <input type="radio" name="cinsiyet" value="Erkek" required>Erkek
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td>:</td>
+                        <td><input type="email" name="email" size="30" required></td>
+                    </tr>
+                    <tr>
+                        <td>Telefon Numarası</td>
+                        <td>:</td>
+                        <td><input type="text" pattern="[0-9]{11}" name="telNo" size="30" required></td>
+                    </tr>
+                    <tr>
+                        <td>Konu</td>
+                        <td>:</td>
+                        <td>
+                            <select name="konu" required>
+                                    <option value="bos"></option>
                                     <option value="Şikayet">Şikayet</option>
                                     <option value="Öneri">Öneri</option>
                                     <option value="Bilgi Talebi">Bilgi Talebi</option>
@@ -67,19 +63,20 @@
                                     <option value="Teşekkür">Teşekkür</option>
                                     <option value="Diğer">Diğer</option>
                                 </select>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Mesajınız</td>
-                            <td>:</td>
-                            <td><textarea name="Mesajiniz" rows="5px" cols="25px" minlength="10" maxlength="80">Mesajınızı yazınız.</textarea></td>
-                        </tr>
-                        <tr>
-                            <td><input type="submit" name=gonder value=Gönder></td>
-                        </tr>
-                    </table>
-                </form>
-            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Mesajınız</td>
+                        <td>:</td>
+                        <td>
+                            <textarea name="Mesajiniz" minlength="10" maxlength="80" placeholder="Mesajınızı yazınız." rows="5" cols="30" required></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input class="buton" type="submit" name=gonder value=Gönder></td>
+                    </tr>
+                </table>
+            </form>
         </div>
 </body>
 

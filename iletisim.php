@@ -9,9 +9,21 @@ $mesaj = $_POST['Mesajiniz'];
 <!DOCTYPE html>
 <html>
 
-<head></head>
+<head>
+    <link rel="stylesheet" type="text/css" href="stilim.css">
+    <meta charset="utf-8">
+</head>
 
 <body>
+<div class="container-fluid">
+        <div class="üst">
+            <a href="hakkimda.html">HAKKIMDA</a>
+            <a href="ozgecmis.html">ÖZGEÇMİŞ</a>
+            <a href="sehrim.html">ŞEHRİM</a>
+            <a href="kulturelmiras.html">KÜLTÜREL MİRAS</a>
+            <a href="girisyap.html">GİRİŞ YAP</a>
+            <a class="gecerli" href="iletisim.html">İLETİŞİM</a>
+        </div><br><br><br><div class=orta>
     <?php
     echo "Mesajınız alınmıştır. En kısa süre içerisinde tarafınıza dönüş sağlanacaktır.";
     ?>
@@ -100,6 +112,8 @@ $mesaj = $_POST['Mesajiniz'];
             </td>
         </tr>
     </table>
+</div>
+</div>
 </body>
 
 </html>

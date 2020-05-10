@@ -98,3 +98,28 @@ h5.yazi {
     width: 825px;
     height: 450px;
 }
+
+.üstBosluk {
+    padding: 7%;
+}
+
+form.tasarım {
+    padding-top: 80px;
+    padding-left: 570px;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.girisYapildi {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    padding: 80px;
+}
+
+.buton {
+    background-color: #512013;
+    color: white;
+    border-radius: 10px;
+}

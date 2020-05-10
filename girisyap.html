@@ -2,7 +2,6 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="stilim.css">
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="stilim.css">
@@ -19,18 +18,19 @@
             <a class="gecerli" href="girisyap.html">GİRİŞ YAP</a>
             <a href="iletisim.html">İLETİŞİM</a>
         </div>
-        <form>
-            Kullanıcı Adı:<br>
-            <input type="text" name="kullaniciAdi">
-            <br> Şifre:
-            <br>
-            <input type="password" name="sifre">
-            <br>
-            <br>
-            <input type="submit" value="Giriş Yap">
-        </form>
+        <div class="orta">
+            <form class="tasarım" action="girisyap.php" method="POST">
+                Mail Adresiniz:<br>
+                <input type="email" name="mail" size="30" required><br>
+                <br> Şifre:
+                <br>
+                <input type="password" name="sifre" id="sifre" size="30" required>
+                <br>
+                <br>
+                <input class="buton" type="submit" value="Giriş Yap">
+            </form>
+        </div>
     </div>
-
 </body>
 
 </html>
