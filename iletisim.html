@@ -37,6 +37,13 @@
                             <td><input type="text" name="soyisim"></td>
                         </tr>
                         <tr>
+                            <td>Cinsiyet</td>
+                            <td>:</td>
+                            <td><input type="radio" name="cinsiyet" value="Kadın">Kadın
+                                <input type="radio" name="cinsiyet" value="Erkek">Erkek
+                            </td>
+                        </tr>
+                        <tr>
                             <td>Email</td>
                             <td>:</td>
                             <td><input type="email" name="email"></td>
@@ -44,26 +51,28 @@
                         <tr>
                             <td>Telefon Numarası</td>
                             <td>:</td>
-                            <td><input type="text" pattern="[0,9]{11}" name="telNo"></td>
+                            <td><input type="text" pattern="[0-9]{11}" name="telNo"></td>
                         </tr>
                         <tr>
                             <td>Konu</td>
                             <td>:</td>
-                            <td><select name="konu">
-                    <option value="Bir konu seçiniz">Bir konu seçiniz.</option>
-                    <option value="Şikayet">Şikayet</option>
-                    <option value="Öneri">Öneri</option>
-                    <option value="Bilgi Talebi">Bilgi Talebi</option>
-                    <option value="Giriş Yapamıyorum">Giriş Yapamıyorum</option>
-                    <option value="İstek">İstek</option>
-                    <option value="Teşekkür">Teşekkür</option>
-                    <option value="Diğer">Diğer</option>
-                </select></td>
+                            <td>
+                                <select name="konu">
+                                    <option value="Bir konu seçiniz" selected>Bir konu seçiniz.</option>
+                                    <option value="Şikayet">Şikayet</option>
+                                    <option value="Öneri">Öneri</option>
+                                    <option value="Bilgi Talebi">Bilgi Talebi</option>
+                                    <option value="Giriş Yapamıyorum">Giriş Yapamıyorum</option>
+                                    <option value="İstek">İstek</option>
+                                    <option value="Teşekkür">Teşekkür</option>
+                                    <option value="Diğer">Diğer</option>
+                                </select>
+                            </td>
                         </tr>
                         <tr>
                             <td>Mesajınız</td>
                             <td>:</td>
-                            <td><textarea value="Mesajınızı yazınız.">Mesajınızı yazınız.</textarea></td>
+                            <td><textarea name="Mesajiniz" rows="5px" cols="25px">Mesajınızı yazınız.</textarea></td>
                         </tr>
                         <tr>
                             <td><input type="submit" name=gonder value=Gönder></td>
