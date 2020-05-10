@@ -61,6 +61,13 @@
     color: rgb(4, 13, 2);
 }
 
+h1.yazi {
+    padding-bottom: 10px;
+    padding-top: 20px;
+    font-weight: bold;
+    color: #283618;
+}
+
 h4.yazi {
     padding-bottom: 10px;
     padding-top: 20px;
